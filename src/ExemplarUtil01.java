@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class ExemplarUtil01 {
-    static final int MAX = 6; //mostra a quantidade de exemplares na biblioteca.
+    static final int MAX = 2; //mostra a quantidade de exemplares na biblioteca.
 
     public static void main(String [] args){
         Scanner scanner = new Scanner(System.in);
