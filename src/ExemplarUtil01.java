@@ -26,8 +26,8 @@ public class ExemplarUtil01 {
             boolean aptoEmprestimo = scanner.nextLine().equalsIgnoreCase("S");
 
             //instanciação de enésimo objeto da classe Exemplar e armazenamento de referência em enésimo índice do array
-            acervo[i] = new Exemplar(tombo, titulo, autoria, aptoEmprestimo);
+            acervo[i] = new Exemplar(tombo, titulo, autoria, aptoEmprestimo, tombo);
         }
-        scanner.close(); //fecha o fluxo de operação de entrada.
+        scanner.close(); //fecha o fluxo de operação de
     }
 }
